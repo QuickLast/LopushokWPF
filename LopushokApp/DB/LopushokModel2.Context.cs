@@ -13,10 +13,10 @@ namespace LopushokApp.DB
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class LopushokOsipovEntities : DbContext
+    public partial class LopushokOsipovEntities1 : DbContext
     {
-        public LopushokOsipovEntities()
-            : base("name=LopushokOsipovEntities")
+        public LopushokOsipovEntities1()
+            : base("name=LopushokOsipovEntities1")
         {
         }
     

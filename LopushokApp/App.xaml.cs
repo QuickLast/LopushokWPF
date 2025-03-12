@@ -14,7 +14,7 @@ namespace LopushokApp
     /// </summary>
     public partial class App : Application
     {
-        public static LopushokOsipovEntities db = new LopushokOsipovEntities();
+        public static LopushokOsipovEntities1 db = new LopushokOsipovEntities1();
         public static MainWindow main;
     }
 }

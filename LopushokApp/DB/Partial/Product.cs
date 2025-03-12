@@ -68,16 +68,16 @@ namespace LopushokApp.DB
             }
         }
 
-        public SolidColorBrush BackgroundColor
+        public SolidColorBrush BackgroundColorProduct
         {
             get
             {
                 var lastSale = ProductSale?.LastOrDefault()?.SaleDate;
                 if (lastSale == null || lastSale.Value.Month != DateTime.Now.Month || lastSale.Value.Year != DateTime.Now.Year)
                 {
-                    return new SolidColorBrush(Colors.LightCoral);
+                    return new SolidColorBrush(Colors.Red);
                 }
-                return new SolidColorBrush(Colors.White);
+                return new SolidColorBrush(Colors.LightGreen);
             }
         }
     }

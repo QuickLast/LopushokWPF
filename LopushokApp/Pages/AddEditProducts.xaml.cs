@@ -89,12 +89,12 @@ namespace LopushokApp.Pages
             App.db.SaveChanges();
 
             ShowMessage("Успешно удалено");
-            App.main.BodyFrame.NavigationService.Navigate(new Pages.ProductsList());
+            App.main.BodyFrame.NavigationService.Navigate(new ProductsList());
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)
         {
-            App.main.BodyFrame.NavigationService.Navigate(new Pages.ProductsList());
+            App.main.BodyFrame.NavigationService.Navigate(new ProductsList());
         }
 
         private void UpdateMaterialsDataGrid()

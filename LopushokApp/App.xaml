@@ -8,16 +8,16 @@
             <Setter Property="Background">
                 <Setter.Value>
                     <RadialGradientBrush>
-                        <GradientStop Color="#FF0AAC98" Offset="1"/>
+                        <GradientStop Color="LightGray" Offset="1"/>
                         <GradientStop Color="White" Offset="0"/>
-                        <GradientStop Color="#FF6DCDC1" Offset="0.936"/>
+                        <GradientStop Color="LightGray" Offset="0.106"/>
                         <GradientStop Color="White"/>
-                        <GradientStop Color="#FFD4F0ED" Offset="0.483"/>
+                        <GradientStop Color="LightGray" Offset="0.663"/>
                     </RadialGradientBrush>
                 </Setter.Value>
             </Setter>
-            <Setter Property="RowBackground" Value="#FFFFFF"/>
-            <Setter Property="AlternatingRowBackground" Value="#CEFFF9"/>
+            <Setter Property="RowBackground" Value="White"/>
+            <Setter Property="AlternatingRowBackground" Value="LightGray"/>
             <Setter Property="BorderBrush" Value="#CCCCCC"/>
             <Setter Property="BorderThickness" Value="1"/>
             <Setter Property="FontFamily" Value="Gabriola"/>

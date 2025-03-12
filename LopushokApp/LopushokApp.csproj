@@ -76,98 +76,98 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="DB\Agent.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="DB\Change.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="DB\Employee.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="DB\Equipment.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="DB\HistoryMater.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="DB\HistoryProduct.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
-    <Compile Include="DB\LopushokModel.Context.cs">
+    <Compile Include="DB\LopushokModel2.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>LopushokModel.Context.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="DB\LopushokModel.cs">
+    <Compile Include="DB\LopushokModel2.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
-    <Compile Include="DB\LopushokModel.Designer.cs">
+    <Compile Include="DB\LopushokModel2.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>LopushokModel.edmx</DependentUpon>
+      <DependentUpon>LopushokModel2.edmx</DependentUpon>
     </Compile>
     <Compile Include="DB\Material.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="DB\NameSale.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="DB\NameSupply.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="DB\Partial\Product.cs" />
     <Compile Include="DB\PrioritySupply.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="DB\Product.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="DB\ProductBid.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="DB\ProductMaterial.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="DB\ProductSale.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="DB\SaleAgent.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="DB\ShiftSchedule.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="DB\Supplier.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="DB\Supply.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="DB\sysdiagrams.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="DB\TypeAgent.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="DB\TypeEmployee.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="DB\TypeMaterial.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="DB\TypeProduct.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="DB\TypeSpec.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="DB\TypeSupplier.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="DB\UnitOfMeasurement.cs">
-      <DependentUpon>LopushokModel.tt</DependentUpon>
+      <DependentUpon>LopushokModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -206,12 +206,12 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EntityDeploy Include="DB\LopushokModel.edmx">
+    <EntityDeploy Include="DB\LopushokModel2.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>LopushokModel.Designer.cs</LastGenOutput>
+      <LastGenOutput>LopushokModel2.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="DB\LopushokModel.edmx.diagram">
-      <DependentUpon>LopushokModel.edmx</DependentUpon>
+    <None Include="DB\LopushokModel2.edmx.diagram">
+      <DependentUpon>LopushokModel2.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -254,15 +254,15 @@
     <Resource Include="Image\Лопушок.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DB\LopushokModel.Context.tt">
+    <Content Include="DB\LopushokModel2.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>LopushokModel.Context.cs</LastGenOutput>
-      <DependentUpon>LopushokModel.edmx</DependentUpon>
+      <DependentUpon>LopushokModel2.edmx</DependentUpon>
+      <LastGenOutput>LopushokModel2.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="DB\LopushokModel.tt">
+    <Content Include="DB\LopushokModel2.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>LopushokModel.edmx</DependentUpon>
-      <LastGenOutput>LopushokModel.cs</LastGenOutput>
+      <DependentUpon>LopushokModel2.edmx</DependentUpon>
+      <LastGenOutput>LopushokModel2.cs</LastGenOutput>
     </Content>
     <Content Include="LopushokScript.sql" />
     <Resource Include="Лопушок.ico" />

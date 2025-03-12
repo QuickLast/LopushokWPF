@@ -1330,7 +1330,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="LopushokOsipovEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="LopushokOsipovEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Agent" EntityType="Self.Agent" />
           <EntitySet Name="Change" EntityType="Self.Change" />
           <EntitySet Name="Employee" EntityType="Self.Employee" />
@@ -1467,7 +1467,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="Хранилище LopushokOsipovModelContainer" CdmEntityContainer="LopushokOsipovEntities">
+        <EntityContainerMapping StorageEntityContainer="Хранилище LopushokOsipovModelContainer" CdmEntityContainer="LopushokOsipovEntities1">
           <EntitySetMapping Name="Agent">
             <EntityTypeMapping TypeName="LopushokOsipovModel.Agent">
               <MappingFragment StoreEntitySet="Agent">
